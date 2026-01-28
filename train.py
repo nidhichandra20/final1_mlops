@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import joblib
 
-# Load data
+
 df = pd.read_csv("data/iris.csv")
 
 X = df.drop("target", axis=1)
